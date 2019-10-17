@@ -1,0 +1,2 @@
+A)El objetivo de la funcion es sumar los digitos de un numero.
+B)No funciona porque no tiene un caso base,por lo tanto nunca va a terminar y ademas esta mal llamada la funcion.
