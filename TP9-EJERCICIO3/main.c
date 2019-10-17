@@ -26,9 +26,6 @@ int main(void) {
 
 int suma_digitos(int n1){
     
-    if(n1<10){
-        return n1;
-    }
-    
-    return ((n1 % 10) + suma_digitos(n1 / 10)); //caso recursivo
+ 
+    return ((n1 % 10) + digitos(n1 / 10)); //caso recursivo
 }
