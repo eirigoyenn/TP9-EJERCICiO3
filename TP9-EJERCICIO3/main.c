@@ -31,6 +31,9 @@ int suma_digitos(int n1){
         
         return n1;
     }
- 
-    return ((n1 % 10) + suma_digitos(n1 / 10)); /*caso recursivo: devuelvo el modulo del numero divido 10 y llamo a la funcion con el numero dividido 10*/
+    else{
+       
+        return ((n1 % 10) + suma_digitos(n1 / 10)); /*caso recursivo: devuelvo el modulo del numero divido 10 y llamo a la funcion con el numero dividido 10*/
+
+    }
 }
