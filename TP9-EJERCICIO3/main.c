@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int suma_digitos(int n1);
+int suma_digitos(int n1); /*Funcion recursiva para obtener la suma de los digitos de un numero*/
 /*
  * 
  */
